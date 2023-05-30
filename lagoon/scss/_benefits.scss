@@ -1,0 +1,28 @@
+.benefits {
+    &-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 22px;
+    }
+
+    &__item {
+        background-color: $white;
+        max-width: calc(25% - 20px);
+        min-width: 20%;
+        padding: 45px 42px 32px 45px;
+    }
+
+    &__box {
+        &-text {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: $black;
+    }
+}

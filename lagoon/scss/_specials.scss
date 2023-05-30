@@ -1,0 +1,69 @@
+.specials {
+    &-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        margin-right: 24px;
+    }
+
+    &__right {
+        display: flex;
+        min-width: 570px;
+        width: 570px;
+        height: 540px;
+        min-height: 540px;
+
+        background: url(../img/lux-appartments.jpg);
+
+        & .specials__link {
+            justify-content: end;
+
+            & .specials__title {
+                margin-bottom: 12px;
+            }
+
+            & .specials__price {
+                margin-bottom: 47px;
+            }
+        }
+    }
+
+    &__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: flex-start;
+        padding: 40px 45px;
+        width: 100%;
+        height: 100%;
+
+        &:focus {
+            border: none;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        color: $white;
+    }
+
+    &__price {
+        font-size: 20px;
+        line-height: 20px;
+        color: $white;
+        opacity: 0.8;
+    }
+
+    &__card-1 {
+        margin-bottom: 24px;
+        background: $gradient, url(../img/maldives.png);
+    }
+
+    &__card-2 {
+        background: $gradient, url(../img/crete.png);
+    }
+}

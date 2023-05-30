@@ -1,0 +1,23 @@
+@import url('../fonts/stylesheet.css');
+
+html {
+    font-family: "Muller", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.title {
+    padding-left: 45px;
+    margin-bottom: 20px;
+
+    font-size: 40px;
+    line-height: 40px;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+
+    &_norm {
+        color: $gray-dark;
+    }
+}

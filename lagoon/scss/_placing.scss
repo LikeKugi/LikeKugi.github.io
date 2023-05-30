@@ -1,0 +1,109 @@
+.placing {
+    &-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__box {
+        width: 100%;
+        max-width: 375px;
+        background-color: $white;
+
+        &-text {
+            padding: 36px 45px 45px;
+        }
+
+        .description {
+            &>*:not(:last-child) {
+                margin-bottom: 16px;
+            }
+
+            &__price {
+                &-box {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .price {
+                        &__from {
+                            font-size: 16px;
+                            color: $gray-medium;
+                        }
+
+                        &__value {
+                            font-weight: 700;
+                            font-size: 20px;
+                            color: $black;
+                        }
+
+                        &__night {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            &__title {
+                font-size: 16px;
+            }
+
+            &__text {
+                font-size: 16px;
+                color: $gray-medium;
+            }
+        }
+    }
+
+    .variants {
+        &__link {
+            display: block;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+            &:focus .variants__text {
+                outline: $link-hover solid;
+            }
+        }
+
+        &__box {
+            &-text {
+                position: absolute;
+                padding-bottom: 20px;
+
+                svg {
+                    stroke: $white;
+                }
+            }
+
+        }
+
+        &__text {
+            display: inline-block;
+            padding: 5px;
+            font-size: 20px;
+            line-height: 200%;
+        }
+    }
+}
+
+.star {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+
+    &:not(:last-of-type) {
+        margin-right: 6px;
+    }
+
+    &_gold {
+        background-image: url("../icons/star-gold.svg");
+    }
+
+    &_gray {
+        background-image: url("../icons/star-gray.svg");
+    }
+}

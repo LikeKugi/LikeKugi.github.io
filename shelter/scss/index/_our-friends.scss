@@ -1,0 +1,38 @@
+.our-friends {
+  background-color: $light-l;
+  padding-top: 80px;
+  padding-bottom: 100px;
+
+  &__title {
+    max-width: 400px;
+    margin: 0 auto 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+
+  &__box-btn {
+    max-width: max-content;
+    margin: 0 auto;
+  }
+
+  &__slider {
+    margin-bottom: 65px;
+  }
+
+  &__btn {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our-friends {
+    padding: 42px 0 40px;
+    &__title {
+      margin: 0 auto 42px;
+    }
+    &__slider {
+      margin-bottom: 45px
+    }
+  }
+}

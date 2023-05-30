@@ -1,0 +1,1 @@
+const pagination = new Pagination(PETS);

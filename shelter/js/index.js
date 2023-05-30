@@ -1,0 +1,2 @@
+
+const slider = new Slider();

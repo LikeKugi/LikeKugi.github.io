@@ -1,0 +1,50 @@
+.offer {
+    &-box {
+        padding: 45px 0;
+        background-color: $gray-light;
+    }
+
+    &__box {
+        margin: 0 45px;
+    }
+
+    &__form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 28px 32px;
+
+        background-color: $white;
+    }
+
+    &__item {
+        padding: 5px;
+
+        &:hover {
+            outline: 1px solid $gray-light;
+        }
+    }
+
+    &__label {
+        display: block;
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: $black;
+    }
+
+    select,
+    input {
+        border: 0;
+        font-size: 16px;
+
+        &:focus {
+            outline: 1px solid $link-active;
+        }
+    }
+
+    input[type="number"] {
+        border-bottom: 1px solid $gray-light;
+    }
+}

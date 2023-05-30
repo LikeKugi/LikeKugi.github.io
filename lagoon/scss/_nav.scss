@@ -1,0 +1,26 @@
+.nav {
+    &-box {
+        height: 70px;
+        padding: 0 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        background-color: $white;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 45px;
+    }
+
+    &__link {}
+
+    &__btn:not(:last-child) {
+        margin-right: 40px;
+    }
+}

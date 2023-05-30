@@ -1,0 +1,153 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(41, 41, 41, 0.6);
+;
+
+  &__window {
+    width: 900px;
+    height: 500px;
+    position: relative;
+    max-width: 900px;
+    display: flex;
+    border-radius: 9px;
+    background-color: $light-xl;
+  }
+
+  &__btn {
+    position: absolute;
+    top: -52px;
+    right: -42px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid $primary;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $primary;
+    }
+  }
+
+  &__box {
+    &-img {
+      max-width: 500px;
+      max-height: 500px;
+      width: 500px;
+      height: 100%;
+
+      & img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+      }
+    }
+
+    &-txt {
+      padding: 50px 30px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    @extend .georgia;
+    @include txt-norm(15px);
+    line-height: 16.5px;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+
+    &::before {
+      content: '• ';
+      margin-right: 10px;
+      color: $primary;
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 11px;
+    }
+  }
+
+  &__annotation {
+    @extend .georgia;
+    @include txt-semibold(15px);
+  }
+
+  &__value {
+    @extend .georgia;
+    @include txt-norm(15px);
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .modal {
+
+    &__window {
+      width: 630px;
+      height: 350px;
+    }
+
+    &__box {
+      &-img {
+        max-width: max-content;
+        max-height: 50%;
+        & img {
+          width: 350px;
+          height: 350px;
+          object-fit: cover;
+        }
+      }
+      &-txt {
+        padding: 10px;
+      }
+    }
+
+    &__subtitle {
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      @include txt-norm(13px);
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .modal {
+    &__window {
+      width: 75%;
+      height: auto;
+    }
+    &__box {
+      &-img {
+        display: none;
+      }
+    }
+    &__btn {
+      left: calc(100% - 20px);
+    }
+  }
+}

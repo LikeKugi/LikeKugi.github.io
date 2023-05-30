@@ -1,0 +1,57 @@
+.footer {
+    &-box {
+        display: flex;
+        padding: 45px;
+        background-color: $gray-dark;
+        background-image: url(../icons/lagoona-logo.png);
+        background-repeat: no-repeat;
+        background-position: 90% 100%;
+        color: $white;
+        font-size: 16px;
+        line-height: 190%;
+    }
+
+    &__info {
+        width: 100%;
+        max-width: 300px;
+        margin-right: 125px;
+
+        &-box {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__address {
+        width: 100%;
+        max-width: 375px;
+
+        &-box {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__socials {
+        margin: 0 0 0 auto;
+
+        &-box {
+            &:not(:last-of-type) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    &__text {}
+
+    &__link {
+        display: block;
+        width: fit-content;
+        height: max-content;
+        line-height: 1;
+        border: 1px solid transparent;
+
+
+        & svg path {
+            fill: currentColor;
+        }
+    }
+}

@@ -1,0 +1,138 @@
+.friends {
+  padding: 80px 0 100px;
+  background-color: $light-l;
+
+  &__title {
+    max-width: 400px;
+    margin: 0 auto 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+}
+
+.pets {
+
+  margin-bottom: 65px;
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px -20px;
+  }
+
+  &__card {
+    margin: 16.5px 20px;
+  }
+
+}
+
+.pagination {
+  &__list {
+    max-width: 340px;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__link {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $primary;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    color: $dark-3xl;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $dark-3xl;
+    }
+
+    &:hover {
+      background-color: $primary;
+    }
+
+    &--active {
+      background-color: $primary;
+    }
+
+    &--inactive {
+      color: $dark-s !important;
+      border: 2px solid $dark-s !important;
+      background-color: $light-xl !important;
+      cursor: not-allowed !important;
+
+      &>* {
+        cursor: not-allowed !important;
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 1279px) {
+  .friends {
+    padding-bottom: 76px;
+    &__title {
+      margin-bottom: 30px;
+    }
+  }
+  .pets {
+    margin-bottom: 42px;
+    &__cards {
+      justify-content: center;
+    }
+    &__card {
+      &:nth-child(n + 7) {
+        display: none;
+      }
+    }
+  }
+  .pagination {
+    &__list {
+      max-width: max-content;
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .friends {
+    padding: 42px 0;
+
+    &__title {
+      margin-bottom: 40px;
+    }
+  }
+  .pagination {
+    &__item {
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+  }
+  .pets {
+    &__card {
+      margin: 17px 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 619px) {
+  .pets {
+    &__card {
+      &:nth-child(n + 4) {
+        display: none;
+      }
+    }
+  }
+}

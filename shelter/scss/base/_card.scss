@@ -1,0 +1,41 @@
+.card {
+  max-height: 435px;
+  width: 100%;
+  max-width: 270px;
+  padding-bottom: 30px;
+  background-color: $light-s;
+  border-radius: 9px;
+
+  &__box {
+    &-img {
+      width: 100%;
+      margin-bottom: 30px;
+      text-align: center;
+
+      & img {
+        object-fit: cover;
+      }
+    }
+
+    &-text {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    margin-bottom: 32px;
+  }
+
+  &:hover {
+    -webkit-box-shadow: 6px 6px 20px 7px rgba(34, 60, 80, 0.12);
+    -moz-box-shadow: 6px 6px 20px 7px rgba(34, 60, 80, 0.12);
+    box-shadow: 6px 6px 20px 7px rgba(34, 60, 80, 0.12);
+    & .card__btn {
+      background-color: $primary-light;
+    }
+  }
+
+  &:hover * {
+    cursor: pointer;
+  }
+}

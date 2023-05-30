@@ -1,0 +1,44 @@
+.service {
+    &-box {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    &__item {
+        height: 330px;
+        background-color: $white;
+    }
+
+    &__title {
+        font-size: 20px;
+        line-height: 200%;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 200%;
+        color: $black;
+    }
+}
+
+.card {
+    &__box {
+
+        &-picture {
+            height: 50%;
+            // overflow: hidden;
+
+            & img {
+                bottom: 0;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &-text {
+            padding: 26px 45px 35px;
+        }
+    }
+}
