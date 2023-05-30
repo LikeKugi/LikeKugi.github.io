@@ -47,7 +47,7 @@ Wanna quit Vim without reloading? Ask me now <3
 - Python PyGame | [Alien Invasion simple game](https://github.com/LikeKugi/Alien) Python Crash Course by Eric Matthes
 - Python Telebot | [Simple QA telegram bot](https://github.com/LikeKugi/python_gb/tree/main/homework/homework10)
 - Python Flask SQLAlchemy Flask-RESTful HTML SCSS JS | [My implementation](https://github.com/LikeKugi/python_gb/tree/main/OOP/practice6) of FullStack employees application
-- HTML5, CSS, SCSS | [Landing Page](https://github.com/LikeKugi/WebDev_Tasks/tree/main/SB_Frontend/html_css/4/src)
+- HTML5, CSS, SCSS | [Lagoon](https://likekugi.github.io/lagoon/) page
 - HTML5, SCSS, Vanilla JS | [Shelter](https://likekugi.github.io/shelter/) page
 - HTML5, SCSS, Vanilla JS | [Minesweeper](https://likekugi.github.io/minesweeper/) game
 - HTML5, SCSS, Vanilla JS | [Virtual keyboard](https://likekugi.github.io/virtual-keyboard/)
