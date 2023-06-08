@@ -6,7 +6,7 @@ class Slider {
     this.controls = [...document.querySelectorAll(".banner__swiper")];
     this.addListenersToControls();
     this.#current = 0;
-    this.slides = ["/img/proj-1.png", "/img/proj-2.png", "/img/proj-3.png"];
+    this.slides = ["../img/proj-1.png", "../img/proj-2.png", "../img/proj-3.png"];
     this.startInterval();
   }
 
