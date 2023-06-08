@@ -12,7 +12,9 @@ class Works {
   }
 
   async fetchData() {
-    let response = await fetch('./js/works.json');
+    let response = await fetch(
+      'https://likekugi.github.io/euclid/js/works.json',
+    );
     try {
       if (!response.ok) return false;
       let ans = await response.json();
