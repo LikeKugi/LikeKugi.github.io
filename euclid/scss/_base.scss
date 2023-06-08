@@ -1,0 +1,160 @@
+* {
+    transition: all 0.4s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $bg-body;
+}
+
+.page {
+    &-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    &-content {
+        padding-top: 50px;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .page {
+        &-content {
+            padding-top: 30px;
+        }
+    }
+}
+
+.container {
+    max-width: min(1800px, 100vw);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .container {
+        padding: 0 50px;
+    }
+}
+
+.btn {
+    @include rounded(16px);
+    border: none;
+    cursor: pointer;
+
+    &--md {
+        padding: 25px 38px;
+        @include txt-bold(23px);
+    }
+
+    &--sm {
+        padding: 20px 38px;
+    }
+
+    &--lg {
+        padding: 19px 52px;
+    }
+
+    &--bold {
+        @include txt-bold(16px);
+    }
+
+    &--orange {
+        background-color: $orange-default;
+        color: $white;
+
+        &:hover {
+            background-color: $orange-light;
+        }
+
+        &:active {
+            background-color: $orange-dark;
+        }
+
+        &:focus {
+            background-color: $orange-light;
+        }
+    }
+
+    &--nobg {
+        &-orange {
+            background: none;
+            color: $white;
+            border: 3px solid $orange-default;
+
+            &:hover {
+                border: 3px solid transparent;
+                background-color: $orange-light;
+            }
+
+            &:active {
+                border: 3px solid transparent;
+                background-color: $orange-dark;
+            }
+
+            &:focus {
+                border: 3px solid transparent;
+                background-color: $orange-light;
+            }
+        }
+
+        &-gray {
+            background: none;
+            color: $black;
+            border: 1px solid $black;
+
+            &:hover {
+                border: 1px solid transparent;
+                color: $white;
+                background-color: $gray;
+            }
+
+            &:active {
+                border: 1px solid transparent;
+                color: $white;
+                background-color: $black;
+            }
+
+            &:focus {
+                border: 1px solid transparent;
+                color: $white;
+                background-color: $gray;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .btn {
+        &--md {
+            padding: 13px 28px;
+            @include txt-bold(12px);
+        }
+
+        &--sm {
+            padding: 12px 44px;
+            @include txt-bold(12px);
+        }
+
+        &--nobg {
+            &-orange {
+                color: $orange-default;
+
+                &:hover,
+                &:active,
+                &:focus {
+                    color: $white;
+                }
+            }
+        }
+
+    }
+}

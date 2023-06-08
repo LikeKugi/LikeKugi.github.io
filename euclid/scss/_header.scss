@@ -1,0 +1,175 @@
+.header {
+    background-color: $white;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 0;
+    }
+}
+
+.nav {
+
+    &__close {
+        margin-bottom: 10%;
+    }
+
+    &__list {
+        display: flex;
+        overflow: hidden;
+    }
+
+    &__item {
+        &:not(:last-of-type) {
+            margin-right: 85px;
+        }
+    }
+
+    &__link {
+        display: inline-block;
+        padding: 5px;
+        @include txt-semibold(18px);
+        text-decoration: none;
+        border: 2px solid transparent;
+        color: $black;
+
+        &:hover {
+            color: inherit;
+            border-bottom: 2px solid $orange-default;
+        }
+
+        &:focus {
+            color: inherit;
+            border: 2px solid $orange-default;
+
+        }
+
+        &:active {
+            color: $orange-dark;
+            border: 2px solid $orange-dark;
+        }
+    }
+
+    &__toggler {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+
+        &:focus {
+            outline: 1px solid $orange-default;
+        }
+
+        &:active svg * {
+            fill: $orange-dark;
+        }
+    }
+
+    &__collapse {
+        display: none;
+    }
+
+    &__hidden {
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        position: absolute !important;
+        height: 0 !important;
+    }
+}
+
+.find {
+    position: relative;
+
+    &__box {
+        position: fixed;
+        z-index: 10;
+        right: 2.5%;
+        top: -10%;
+        width: 100%;
+        max-width: min(539px, 80vw);
+        display: flex;
+        padding: 10px 18px;
+        @include rounded(24px);
+        background: $white;
+        box-shadow: 5px 5px 20px rgba(20, 20, 20, 0.12);
+        transition: top .5s;
+    }
+
+    &__controls {
+        display: flex;
+    }
+
+    &__btn {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+
+        &:hover svg {
+            & path {
+                stroke: $orange-default;
+            }
+
+            & rect {
+                fill: $orange-default;
+            }
+
+            & circle {
+                stroke: $orange-default;
+            }
+        }
+
+        &:active {
+            outline: 2px solid $orange-default;
+        }
+    }
+
+    &__field {
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid $gray-lighter;
+        @include txt-norm(18px);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        &__nav {
+            order: -1;
+        }
+    }
+
+    .nav {
+        &__collapse {
+            display: block;
+        }
+
+        &__list {
+            z-index: 5;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: min(420px, 100vw);
+            padding: 40px 50px;
+            flex-direction: column;
+            background-color: $white;
+        }
+
+        &__item {
+            &:not(:last-of-type) {
+                margin-bottom: 60px;
+            }
+        }
+
+        &__link {
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        border-radius: 0px 0px 16px 16px;
+    }
+}

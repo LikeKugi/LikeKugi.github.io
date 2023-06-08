@@ -1,0 +1,139 @@
+.banner {
+    margin-bottom: 50px;
+
+    &__wrapper {
+        @include rounded(32px);
+        padding: 100px 80px 30px;
+        background: url('../img/proj-1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__box {
+        &-text {
+            max-width: 50%;
+            margin-bottom: 90px;
+        }
+
+        &-button {
+            margin-bottom: 55px;
+        }
+
+        &-swipers {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 24px;
+        @include txt-bolder(70px);
+        @extend .txt--white;
+    }
+
+    &__text {
+        margin-bottom: 90px;
+        @include txt-bold(24px);
+        @extend .txt--white;
+    }
+
+    &__swiper {
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: none;
+        background-color: $gray-lighter;
+        cursor: pointer;
+
+        &--active {
+            background-color: $white;
+        }
+
+        &:not(:last-of-type) {
+            margin-right: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .banner {
+        &__box {
+            &-text {
+                max-width: 100%;
+            }
+        }
+
+        &__title {
+            @include txt-bolder(60px);
+            margin-bottom: 16px;
+        }
+
+        &__text {
+            margin-bottom: 60px;
+            @include txt-bold(20px);
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .banner {
+        &__box {
+            &-text {
+                max-width: 100%;
+            }
+        }
+
+        &__wrapper {
+            padding: 160px 40px 30px;
+        }
+
+        &__title {
+            @include txt-bolder(50px);
+            margin-bottom: 16px;
+        }
+
+        &__text {
+            margin-bottom: 60px;
+            @include txt-bold(18px);
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner {
+        &__wrapper {
+            padding: 60px 22px 15px;
+        }
+
+        &__box {
+            &-text {
+                max-width: 100%;
+                margin-bottom: 32px;
+            }
+
+            &-button {
+                text-align: center;
+            }
+        }
+
+        &__title {
+            @include txt-bolder(20px);
+            margin-bottom: 6px;
+            text-align: center;
+        }
+
+        &__text {
+            margin-bottom: 0;
+            @include txt-bold(12px);
+            text-align: center;
+        }
+
+        &__swiper {
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
