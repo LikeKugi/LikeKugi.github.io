@@ -48,6 +48,7 @@ Wanna quit Vim without reloading? Ask me now <3
 - Python Telebot | [Simple QA telegram bot](https://github.com/LikeKugi/python_gb/tree/main/homework/homework10)
 - Python Flask SQLAlchemy Flask-RESTful HTML SCSS JS | [My implementation](https://github.com/LikeKugi/python_gb/tree/main/OOP/practice6) of FullStack employees application
 - HTML5, CSS, SCSS | [Lagoon](https://likekugi.github.io/lagoon/) page
+- HTML5, SCSS, Vanilla JS | [Euclid](https://likekugi.github.io/euclid/) page
 - HTML5, SCSS, Vanilla JS | [Shelter](https://likekugi.github.io/shelter/) page
 - HTML5, SCSS, Vanilla JS | [Minesweeper](https://likekugi.github.io/minesweeper/) game
 - HTML5, SCSS, Vanilla JS | [Virtual keyboard](https://likekugi.github.io/virtual-keyboard/)
