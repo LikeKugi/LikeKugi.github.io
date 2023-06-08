@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+html,
+a,
+button,
+textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@mixin txt-norm($fz) {
+    font-weight: 400;
+    font-size: $fz;
+}
+
+@mixin txt-semibold($fz) {
+    font-weight: 600;
+    font-size: $fz;
+}
+
+@mixin txt-bold($fz) {
+    font-weight: 700;
+    font-size: $fz;
+}
+
+@mixin txt-bolder($fz) {
+    font-weight: 800;
+    font-size: $fz;
+}
+
+.txt--white {
+    color: $white;
+}
+
+.txt--black {
+    color: $black;
+}
+
+.txt--gray {
+    color: $gray-lighter;
+}
+
+.title {
+    @include txt-norm(48px);
+    @extend .txt--black;
+}
+
+.subtitle {
+    @include txt-bold(24px);
+}
+
+@media screen and (max-width: 625px) {
+    .title {
+        @include txt-norm(24px);
+    }
+
+    .subtitle {
+        @include txt-bold(18px);
+    }
+}

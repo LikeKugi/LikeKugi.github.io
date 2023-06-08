@@ -1,0 +1,93 @@
+.faq {
+    padding-bottom: 100px;
+
+    &__title {
+        margin-bottom: 32px;
+    }
+}
+
+.accordion {
+
+    &__details {
+        padding: 40px 0;
+        border-top: 1px solid $gray-lighter;
+        border-bottom: 1px solid $gray-lighter;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+            border-top: 1px solid $orange-default;
+            border-bottom: 1px solid $orange-default;
+
+            & .accordion__box-title {
+                color: $orange-default;
+
+                & svg {
+                    & ellipse {
+                        fill: $orange-default;
+                    }
+
+                    & path {
+                        fill: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    &__box {
+        &-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-text {
+            padding-top: 30px;
+            height: 0;
+        }
+    }
+
+    &__title {
+        @include txt-bold(32px);
+    }
+
+    &__text {
+        @include txt-norm(16px);
+        line-height: 32px;
+
+        &:not(:last-child) {
+            margin-bottom: 32px;
+        }
+    }
+
+    &__hidden {
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+        opacity: 0;
+        max-height: 0;
+    }
+
+    &--active {
+        & svg {
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .accordion {
+        &__title {
+            @include txt-bold(20px);
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .accordion {
+        &__title {
+            @include txt-bold(14px);
+        }
+    }
+}
