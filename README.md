@@ -1,6 +1,6 @@
 # Ilya Shcherbakov
 
-Wanna quit Vim without reloading? Ask me now <3
+Wanna quit Vim without reloading? Ask me how <3
 (`Esc` :q!)
 
 ---
