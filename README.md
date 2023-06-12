@@ -1,6 +1,6 @@
 # Ilya Shcherbakov
 
-Wanna quit Vim without reloading? Ask me now <3
+Wanna quit Vim without reloading? Ask me how <3
 (`Esc` :q!)
 
 ---
@@ -44,7 +44,6 @@ Wanna quit Vim without reloading? Ask me now <3
 
 ## My code examples
 
-- Python PyGame | [Alien Invasion simple game](https://github.com/LikeKugi/Alien) Python Crash Course by Eric Matthes
 - Python Telebot | [Simple QA telegram bot](https://github.com/LikeKugi/python_gb/tree/main/homework/homework10)
 - Python Flask SQLAlchemy Flask-RESTful HTML SCSS JS | [My implementation](https://github.com/LikeKugi/python_gb/tree/main/OOP/practice6) of FullStack employees application
 - HTML5, CSS, SCSS | [Lagoon](https://likekugi.github.io/lagoon/) page
