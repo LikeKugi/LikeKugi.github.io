@@ -5,7 +5,7 @@ Wanna quit Vim without reloading? Ask me how <3
 
 ---
 
-### My goal is to become software developer
+### My goal is to become a software developer
 
 ---
 
@@ -13,7 +13,7 @@ Wanna quit Vim without reloading? Ask me how <3
 
 **Telegram**: @LikeKugi
 
-**Discord**: KugiTheBest#1803
+**Discord**: i_kugi
 
 **Email**: Demka.ilya@gmail.com
 
@@ -33,7 +33,7 @@ Wanna quit Vim without reloading? Ask me how <3
 
 - HTML5, CSS3
 - Sass/SCSS
-- JavaScript basics
+- JavaScript
 - Python
 - Git
 
