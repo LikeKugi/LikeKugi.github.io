@@ -5,7 +5,7 @@ Wanna quit Vim without reloading? Ask me how <3
 
 ---
 
-### My goal is to become a software developer
+### Jr. Frontend Developer
 
 ---
 
