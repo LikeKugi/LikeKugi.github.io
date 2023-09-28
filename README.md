@@ -25,6 +25,7 @@ Wanna quit Vim without reloading? Ask me how <3
 
 ### Education:
 
+- 2023 [RS-School](https://app.rs.school/certificate/owkmsmcg) JavaScript/Frontend (144 pos)
 - 2021 [TUSUR](https://tusur.ru/en) Bachelor: Human resource management
 
 ---
@@ -55,6 +56,7 @@ Wanna quit Vim without reloading? Ask me how <3
 - HTML5, SCSS, Vanilla JS | [Virtual keyboard](https://likekugi.github.io/virtual-keyboard/)
 - HTML5, SCSS, TypeScript | [CSS-Selectors Clone game](https://rolling-scopes-school.github.io/likekugi-JSFE2023Q1/rs-css/) | [RS-School task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - HTML5, SCSS, TypeScript | [AsyncRace](https://rolling-scopes-school.github.io/likekugi-JSFE2023Q1/async-race/) | [RS_School task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md) You'll also need [this](https://github.com/mikhama/async-race-api) server to start AsyncRace
+- React, Redux Toolkit, React-hook-form, TypeScript, SCSS | [Ecommerce application](https://github.com/evgueniazet/eCommerce-Application) | [RS_School final task](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/eCommerce-Application) team work
 
 ---
 
