@@ -1,4 +1,4 @@
-# Ilya Shcherbakov
+# Elijah Shcherbakov
 
 Wanna quit Vim without reloading? Ask me how <3
 (`Esc` :q!)
@@ -26,7 +26,7 @@ Wanna quit Vim without reloading? Ask me how <3
 ### Education:
 
 - 2023 [RS-School](https://app.rs.school/certificate/owkmsmcg) JavaScript/Frontend (144 pos)
-- 2021 [TUSUR](https://tusur.ru/en) Bachelor: Human resource management
+- 2021 [TUSUR](https://tusur.ru/en) Bachelor: Management
 
 ---
 
@@ -37,11 +37,16 @@ Wanna quit Vim without reloading? Ask me how <3
 - JavaScript
 - TypeScript
 - React/RTK
+- React-hook-form
+- React-router-DOM
+- MUI
 - Python
 - Git
 
 - [CodeWars](https://www.codewars.com/users/LikeKugi)
 - [LeetCode](https://leetcode.com/i_kugi/)
+
+I have a little experience in Vue3, WebSockets
 
 ---
 
