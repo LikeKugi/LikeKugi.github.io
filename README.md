@@ -5,7 +5,7 @@ Wanna quit Vim without reloading? Ask me how <3
 
 ---
 
-### Jr. Frontend Developer
+### Frontend Developer
 
 ---
 
