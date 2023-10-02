@@ -61,11 +61,11 @@ I have a little experience in Vue3, WebSockets
 - HTML5, SCSS, Vanilla JS | [Virtual keyboard](https://likekugi.github.io/virtual-keyboard/)
 - HTML5, SCSS, TypeScript | [CSS-Selectors Clone game](https://rolling-scopes-school.github.io/likekugi-JSFE2023Q1/rs-css/) | [RS-School task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rs-css.md)
 - HTML5, SCSS, TypeScript | [AsyncRace](https://rolling-scopes-school.github.io/likekugi-JSFE2023Q1/async-race/) | [RS_School task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md) You'll also need [this](https://github.com/mikhama/async-race-api) server to start AsyncRace
-- React, Redux Toolkit, React-hook-form, TypeScript, SCSS | [Ecommerce application](https://github.com/evgueniazet/eCommerce-Application) | [RS_School final task](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/eCommerce-Application) team work
+- React, Redux Toolkit, React-hook-form, React-router-DOM, MUI, TypeScript, SCSS | [Ecommerce application](https://github.com/evgueniazet/eCommerce-Application) | [RS_School final task](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/eCommerce-Application) team work
 
 ---
 
-## Courses
+## Courses and Certificates
 
 ### Free courses from [Stepik](https://stepik.org/)
 
@@ -85,6 +85,24 @@ I have a little experience in Vue3, WebSockets
   - [Emmet practice](https://stepik.org/cert/1900552)
   - [JavaScript for beginners](https://stepik.org/cert/1908348)
   - [JavaScript and BootStrap5 mini-course](https://stepik.org/cert/1966025)
+
+### Tests from GeekBrains
+
+- HTML / CSS
+  - [Html/css. Интерактивный курс](https://gb.ru/go/hDBNJw)
+  - [HTML&CSS. Начальный уровень](https://gb.ru/go/2R3FrR)
+  - [HTML&CSS. Средний уровень](https://gb.ru/go/T3qJPG)
+  - [HTML&CSS. Сложный уровень](https://gb.ru/go/n~cF_X)
+- JavaScript
+  - [Javascript. Начальный уровень](https://gb.ru/go/uCmBb1)
+  - [JavaScript. Средний уровень](https://gb.ru/go/iWl1hV)
+  - [JavaScript. Сложный уровень](https://gb.ru/go/51pH-l)
+- Python
+  - [Тест по Python. Начальный уровень](https://gb.ru/go/oABN7a)
+  - [Python. Уровень 1](https://gb.ru/go/ZFVRdU)
+- English
+  - [Английский язык. Pre-intermediate](https://gb.ru/go/2cgAiR)
+  - [Английский язык. Intermediate](https://gb.ru/go/fGYxdh)
 
 ---
 
